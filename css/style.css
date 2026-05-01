@@ -1,1 +1,17 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
 
+.skiplink {
+  position: absolute;
+  left: -9999px;
+}
+
+.skiplink:focus {
+  left: 0;
+  top: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+}
